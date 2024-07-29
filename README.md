@@ -14,16 +14,6 @@ Twitch Emotes for Facebook is a Chrome extension that enhances your Facebook exp
 3. Enable `Developer mode`.
 4. Click `Load unpacked` and select the extension's directory.
 
-## Usage
-
-### Adding Custom Emotes
-
-1. Click on the extension icon next to the address bar to open the popup.
-2. Enter the name and URL of the emote.
-3. Click `Add Emote`.
-
-![Popup](screenshots/popup.png)
-
 ### Emotes on Facebook
 
 Once installed, the extension will replace specified text with emote images on Facebook.
@@ -49,7 +39,7 @@ Once installed, the extension will replace specified text with emote images on F
 
 ### Adding Emotes
 
-![Adding Emotes](screenshots/popup.png)
+![Popup](screenshots/popup.png)
 
 ### Emotes in Action
 
