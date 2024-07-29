@@ -14,12 +14,6 @@ Twitch Emotes for Facebook is a Chrome extension that enhances your Facebook exp
 3. Enable `Developer mode`.
 4. Click `Load unpacked` and select the extension's directory.
 
-### Emotes on Facebook
-
-Once installed, the extension will replace specified text with emote images on Facebook.
-
-![Emotes on Facebook](screenshots/facebook-emotes.png)
-
 ## Important Notes
 
 - **Emote URLs**: Due to Content Security Policy (CSP) restrictions, you must use URLs from certain domains. Only URLs from the following domains are allowed:
