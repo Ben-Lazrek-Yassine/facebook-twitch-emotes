@@ -43,7 +43,7 @@ Once installed, the extension will replace specified text with emote images on F
 
 ### Emotes in Action
 
-![Emotes in Action](screenshots/test.png)
+![Emotes in Action](screenshots/example.png)
 
 ## Contributing
 
