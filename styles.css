@@ -2,7 +2,7 @@
     display: inline-block;
     width: 28px;
     height: 28px;
-    border-radius: 50%;
+    border-radius: 50%;/*  i hate this but i can't do anything because fb doesn't allow pngs */
     overflow: hidden;
     vertical-align: middle;
     margin: 0 2px;

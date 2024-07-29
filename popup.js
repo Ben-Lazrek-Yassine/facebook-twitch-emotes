@@ -93,7 +93,7 @@ function deleteEmote(name) {
       chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         chrome.tabs.sendMessage(tabs[0].id, { action: "updateEmotes" });
       });
-      showFeedback("Emote deleted successfully!", "success");
+      showFeedback("Emote deleted successfully, please refresh the page to apply changes", "success");
     });
   });
 }
