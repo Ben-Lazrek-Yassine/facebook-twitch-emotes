@@ -1,105 +1,105 @@
 .twitch-emote {
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    overflow: hidden;
-    vertical-align: middle;
-    margin: 0 2px;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-    width: 300px;
-    padding: 20px;
-    background-color: #f0f2f5;
-    color: #1c1e21;
-  }
-  
-  .container {
-    background-color: #ffffff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #1877f2;
-  }
-  
-  h2 {
-    font-size: 16px;
-    margin-top: 20px;
-  }
-  
-  .status {
-    font-size: 14px;
-    color: #4caf50;
-    margin-bottom: 15px;
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 15px;
-  }
-  
-  input {
-    padding: 8px;
-    border: 1px solid #dddfe2;
-    border-radius: 4px;
-    font-size: 14px;
-  }
-  
-  button {
-    background-color: #1877f2;
-    color: white;
-    border: none;
-    padding: 8px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 500;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #166fe5;
-  }
-  
-  .feedback {
-    font-size: 14px;
-    margin-top: 10px;
-    padding: 8px;
-    border-radius: 4px;
-  }
-  
-  .feedback.success {
-    background-color: #e7f3e8;
-    color: #1e4620;
-  }
-  
-  .feedback.error {
-    background-color: #fdecea;
-    color: #611a15;
-  }
-  
-  .emote-list {
-    margin-top: 10px;
-    font-size: 14px;
-  }
-  
-  .emote-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 0;
-    border-bottom: 1px solid #dddfe2;
-  }
-  
-  .emote-item:last-child {
-    border-bottom: none;
-  }
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f2f5;
+  color: #1c1e21;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #1877f2;
+}
+
+h2 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.status {
+  font-size: 14px;
+  color: #4caf50;
+  margin-bottom: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #dddfe2;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #166fe5;
+}
+
+.feedback {
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.feedback.success {
+  background-color: #e7f3e8;
+  color: #1e4620;
+}
+
+.feedback.error {
+  background-color: #fdecea;
+  color: #611a15;
+}
+
+.emote-list {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.emote-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #dddfe2;
+}
+
+.emote-item:last-child {
+  border-bottom: none;
+}
