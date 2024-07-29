@@ -1,0 +1,10 @@
+.twitch-emote {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: 0 2px;
+  }
+  

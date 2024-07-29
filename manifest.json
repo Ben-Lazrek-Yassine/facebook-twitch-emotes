@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Twitch Emotes for Facebook",
+    "version": "1.1",
+    "description": "Replaces text with Twitch emotes on Facebook and allows custom emotes",
+    "permissions": [
+      "https://*.facebook.com/*",
+      "storage"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+      },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "content_scripts": [
+        {
+          "matches": ["https://*.facebook.com/*"],
+          "js": ["content.js"],
+          "css": ["styles.css"]
+        }
+      ]
+  }
+  
