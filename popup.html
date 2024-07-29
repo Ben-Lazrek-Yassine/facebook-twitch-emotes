@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Twitch Emotes for Facebook</title>
-  <style>
-    body { width: 300px; padding: 10px; }
-    input { margin-bottom: 5px; }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h2>Add Custom Emote</h2>
-  <input type="text" id="emoteName" placeholder="Emote name">
-  <input type="text" id="emoteUrl" placeholder="Emote URL">
-  <button id="addEmote">Add Emote</button>
-  <div id="emoteList"></div>
+  <div class="container">
+    <h1>Twitch Emotes for Facebook</h1>
+    <p id="status" class="status">Extension is working correctly</p>
+    <div class="form">
+      <input type="text" id="emoteName" placeholder="Emote name">
+      <input type="text" id="emoteUrl" placeholder="Emote URL">
+      <button id="addEmote">Add Emote</button>
+    </div>
+    <div id="feedback" class="feedback"></div>
+    <h2>Custom Emotes</h2>
+    <div id="emoteList" class="emote-list"></div>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>
